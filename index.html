@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Electron App</title>
+  </head>
+  <body>
+    <h1>Welcome to the Electron App!</h1>
+    <button id="openNewWindow">Open New Window</button>
+
+    <script>
+      const openNewWindowButton = document.getElementById("openNewWindow");
+      openNewWindowButton.addEventListener("click", () => {
+        window.open("https://www.example.com", "Example Website");
+      });
+    </script>
+  </body>
+</html>
